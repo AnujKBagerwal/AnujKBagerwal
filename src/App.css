@@ -1,0 +1,57 @@
+.ListContainer {
+    background-color: #dfe3e6;
+    border-radius: 3px;
+    width: 300px;
+    padding: 8px;
+    height: 100%;
+    margin: 0 8px 0 0;
+} 
+
+.CardContainer{
+    margin: 0 0 8px 0;
+    position: relative;
+    max-width: 100%;
+    word-wrap: break-word;
+}
+.BoardsContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.openForButtonGroup {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 36px;
+    width: 272px;
+    padding-left: 10px;
+}
+
+.cardTextArea {
+    resize: none;
+    width: 100%;
+    overflow: hidden;
+    outline: none;
+    border: none;
+}
+
+.formButtonGroup{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+    background-color: burlywood; 
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
